@@ -23,7 +23,7 @@ def decodeTemp(output):
 def getDecodedTemp():
     return decodeTemp(getTemp())
 
-def setup():
+def plotSetup():
     global x
     x = np.arange(1, l)
     xticks = np.linspace(1, l-1, dots)
@@ -61,7 +61,7 @@ def plot(y):
 
 def main():
 
-    setup()
+    plotSetup()
 
     tempList =[]
 
